@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(213, 252, 239);
+}
+
+
+#hometitle{
+    text-align: center;
+}
+
+
+.homelist{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align:left;
+    background-color: rgb(247, 181, 192);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* brownies */
+.brownie-page{
+    background-color: rgb(231, 213, 111);
+}
+
+.brownie-pic{
+    height: auto;
+    width: 450px;
+  
+}
+
+.title-brownies{
+    font-size: 40px;
+}
+
+.yummy{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(192, 240, 192);
+}
+
+.desc-brownies,
+.cookie-desc,
+.cupc-desc
+{
+    font-size: 20px;
+}
+
+.title-ingbrownies,
+.steps-brownies,
+.cookie-inglist
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ing-brownies,
+.make-brownies,
+.make-cookie,
+.cookie-ing
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 240, 192);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* cookies */
+.cookie-body{
+    background-color: rgb(238, 144, 210);
+}
+
+.cookie-page{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background-color: rgb(199, 125, 55);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cookie-pic{
+    width: 510px;
+    height: auto;
+}
+
+.cookie-title{
+    background-color: rgb(255, 221, 148);
+    text-align: center;
+}
+
+/* cupcakes */
+
+.cupc-body{
+    background-color: rgb(186, 255, 252);
+}
+.cupc-page{
+    background-color: rgb(223, 145, 157);
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cupc-pic{
+    height: auto;
+    width: 400px;
+}
+
+.cupc-title{
+    background-color: rgb(196, 121, 196);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cupc-ing,
+.cupc-steplist
+{
+    font-size: 20px;
+}
+
+.cupc-inglist,
+.cupc-steps{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(252, 154, 255);
+}
