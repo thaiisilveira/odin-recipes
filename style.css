@@ -1,21 +1,45 @@
-body{
-    background-color: rgb(213, 252, 239);
+*{
+    box-sizing: border-box;
+}
+
+.body-home{
+    background-image: url(/recipes/homebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
 #hometitle{
     text-align: center;
+    font-family: "Sour Gummy", "Times New Roman", sans-serif;
+    font-size: 50px;
+    color: rgb(51, 170, 134);
 }
 
-
-.homelist{
+.reclist {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    text-align:left;
-    background-color: rgb(247, 181, 192);
-    color: rgb(255, 255, 255);
+    text-align:center;
+    background-color: rgb(187, 255, 155);
+    color: orange;
     font-weight: bold;
+    width: 400px;
+    padding: 20px;
+    border-left: 3px solid rgb(0, 199, 0);
+    margin: auto;
 }
+
+a{
+    color: rgb(255, 160, 82);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(78, 209, 176);
+}
+
 /* brownies */
 .brownie-page{
     background-color: rgb(231, 213, 111);
